@@ -12,7 +12,7 @@ camera = PiCamera()
 camera.resolution = (640, 480)
 camera.rotation = 0
 
-model_path = "./best2.onnx"
+model_path = "best2.onnx"
 session = ort.InferenceSession(model_path)
 input_name = session.get_inputs()[0].name
 output_name = session.get_outputs()[0].name

@@ -1,0 +1,5 @@
+flask
+picamera
+onnxruntime
+numpy
+pillow
